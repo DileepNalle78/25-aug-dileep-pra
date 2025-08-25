@@ -1,0 +1,9 @@
+{
+	"name": "df-dileep-25aug",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bbcd4a0f-eb8e-4fb7-bd64-b6ad5bd9ec38",
+		"tenantId": "38d6d9fb-c85b-479a-a64a-3657ea5facb3"
+	}
+}
