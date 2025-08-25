@@ -1,0 +1,47 @@
+{
+	"name": "DelimitedText4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GoogleCloudStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "New folder 1"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "GoogleCloudStorageLocation",
+				"bucketName": "bkt-dileep-22aug",
+				"fileName": "data.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Day",
+				"type": "String"
+			},
+			{
+				"name": "Weather",
+				"type": "String"
+			},
+			{
+				"name": "Temperature",
+				"type": "String"
+			},
+			{
+				"name": "Wind",
+				"type": "String"
+			},
+			{
+				"name": "Humidity",
+				"type": "String"
+			}
+		]
+	}
+}
